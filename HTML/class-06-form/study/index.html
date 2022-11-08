@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 06-forms</title>
+    <style>
+        .pao{
+            background-color: rgb(158, 171, 172);
+        }
+        main{
+        width: 320px; 
+        margin: 0 auto;   
+        background-color: #e0e0e0;   
+        padding: 30px;
+        border-radius: 10px;}
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <form action="" method="get">
+            <section>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Write your name" autocomplete="name" name="nome" autofocus required>
+                
+            </section>
+            <br>
+            <section>
+                <label for="birth">Nascimento:</label>
+                <input type="date" name="date" id="birth">
+            </section>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Tipos de inputs</legend>
+        <form action="">
+            <label for="fruits">Frutas:</label>
+            <input type="text" id="fruits" name="frutas" list="list-fruits" placeholder="Sua fruta favorita">
+            <datalist id="list-fruits">
+                <option value="Pêra"></option>
+                <option value="Maçã"></option>
+                <option value="Manga"></option>
+            </datalist>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+    <br>
+    <section>
+        <fieldset>
+            <form action="">
+                <section>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" autocomplete="email" placeholder="Digite seu e-mail" name="email">
+                </section>
+                
+                <br>
+                <section><label for="senha">Senha:</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" name="senha" minlength="8"></section>
+                    <br>
+                    
+                    <section><label for="">CPF:</label>
+                        <input type="number" min="5" max="10" step="2" required></section> <button type="submit">Enviar</button>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        <h1>Segunda Parte</h1>
+                        <form action="" method="get">
+                            <fieldset>
+                                <legend>Arquivos</legend>
+                                <input type="file" name="" id="" accept="">
+                                <!-- accept: "image/", "video/", ".doc" -->
+                            </fieldset>
+                            <fieldset>
+                                <legend>Filmes Favoritos</legend>
+                                <section>
+                                    <label for="tita">titanic</label>
+                                    <input type="checkbox" name="titanic" id="tita">
+                                </section>
+                                <section>
+                                    <label for="azul">Lagoa Azul</label>
+                                    <input type="checkbox" name="azul" id="azul">
+                                </section>
+                            </fieldset>
+                            <br>
+                            <fieldset class="pao">
+                                <legend>Termos de uso</legend>
+                                <label for="aa">Sim</label>
+                                <input type="radio" name="aa" id="aa" value="termyes">
+                                <label for="nn">Não</label>
+                        <input type="radio" name="aa" id="nn" value="termnot">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Observações</legend>
+                        <textarea name="obs" id="obs" cols="30" rows="10" placeholder="Escreva suas observações" maxlength="20"></textarea>
+                    </fieldset>
+            </form>
+        </main>
+</body>
+</html>

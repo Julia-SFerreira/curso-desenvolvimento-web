@@ -1,0 +1,39 @@
+@charset "utf-08";
+@import "../class-02-box-model/study/css.css";
+@font-face {
+    font-family: playFont;
+    src: url("fonts/zrnic/zrnic\ rg.ttf");
+}
+
+h1{
+    font-family: playFont;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    text-align: center;
+}
+
+@media (max-width: 320px) {
+    h1{
+        color: red;
+    }
+}
+@keyframes myAnimation {
+    0% {
+        opacity: 0.2;
+        transform: rotate(0deg);
+    }
+    33% {
+        color: blueviolet;
+    }
+    66%{
+        color: palevioletred;
+    }
+    100% {
+        opacity: 1;
+        /* transform: rotate(360deg); */
+        transform: scale(1.1);
+    }
+}

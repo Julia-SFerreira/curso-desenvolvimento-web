@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&family=Ms+Madi&family=Oswald:wght@400;700&family=Permanent+Marker&display=swap');
+
+
+
+.ss{
+    height: 400px;
+    width: 300px;
+    background-color: #F6D6B0;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(90deg,  #F6D6B0, #BF1523);
+    font-family: 'Oswald', sans-serif;
+
+}
+.div{
+    background-image: url(imgs/fd.png);
+  
+    background-attachment: fixed;
+    background-size: 100px;
+    background-repeat: no-repeat;
+
+}
+.h1{
+    font-family: 'Permanent Marker', cursive;
+}

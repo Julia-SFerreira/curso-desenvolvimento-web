@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+/* .text{
+    color: blue;
+}
+body{
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-decoration: solid;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 1px black;
+    font-family:'Bungee Spice', cursive;
+}
+
+div.img{       
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+    background-attachment: fixed;
+    width: auto;
+    height: 500px;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+    background-size: 120px;
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: center;
+}
+
+
+p{
+    font-size: 24px;
+    color: #531e1e;
+}
+
+h1{
+    color: #4f3666;
+}
+span p{
+    color: #973f3f;
+}
+.texto{
+    color: #000000;
+}
+
+
+#julia{
+    color: #d2691e;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.h11{
+    position: sticky;
+    top: 32px;
+}
+
+.h12{
+    position: sticky;
+    top: 48px;
+}
+
+.h13{
+    position: sticky;
+    top: 64px;
+}

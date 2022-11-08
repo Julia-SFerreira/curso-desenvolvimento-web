@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-loading{
+    position: absolute;
+}
+
+.circle-loading{
+    height: 120px;
+    width: 120px;
+    border: 16px solid lightgray;
+    border-top-color: blue;
+    border-radius: 50%;
+    animation-name: MyRotateAnimation;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+    /* animation-delay: 3s; */
+}
+
+@keyframes MyRotateAnimation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
