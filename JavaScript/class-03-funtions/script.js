@@ -47,7 +47,6 @@ const uno = new Car("Fiat", "1.4")
 console.log(uno.brand)
 console.log(uno.motor)
 console.log(uno.walk())
-
     // Number()
     // String()
     // Car()
