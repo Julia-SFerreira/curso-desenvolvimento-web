@@ -12,13 +12,13 @@
 
 // myTest("Belezas são coisas acesas por dentro, tristezas são belezas apagadas pelo sofrimento")
 
-// // function somar (n1, n2) {
-// //     // Operador chave
-// //     //let soma = n1 + n2
-// //     // return soma
-// //     return n1 + n2
-// // }
-// // console.log(somar(10, 50))
+function somar (n1, n2) {
+    // Operador chave
+    let soma = n1 + n2 / 2
+    return soma
+    return n1 + n2
+}
+console.log(somar(10, 50))
 
 // // Anonymous<<<<<<<<<
 

@@ -33,11 +33,38 @@
     
 
 
-    let date = new Date()
-    let date1 = new Date("2022-02-17 13:10:00")
-    let data2 = new Date("2022-03-17 12:00:00")
+    // let date = new Date()
+    // let date1 = new Date("2022-02-17 13:10:00")
+    // let data2 = new Date("2022-03-17 12:00:00")
 
 
-    // document.write(date1.toLocaleString("pt-BR"));
-    // document.write((date1 - data2)/ 1000 / 60 / 60 / 24) 
-    document.write(Math.floor((date1 - data2)/ 1000 / 60 / 60 / 24) )
+    // // document.write(date1.toLocaleString("pt-BR"));
+    // // document.write((date1 - data2)/ 1000 / 60 / 60 / 24) 
+    // document.write(Math.floor((date1 - data2)/ 1000 / 60 / 60 / 24) )
+
+
+
+
+
+
+
+
+    // array manipulation 
+
+    // let myArray1 = [1, "a", "A"]
+    // let myArray2 = Array(1, "a", () => "X")
+    // console.log(myArray2.length)
+    // let techs = ["HTML", "CSS", "GIT"]
+    // techs.push("JavaScript")
+    // techs.pop()//remover
+    // techs.unshift("SQL")//adciona ao início
+    // techs.shift()// remove do início
+    // let elementDeleted = techs.pop()
+    // alert(`Elemento ${elementDeleted} removido com sucesso`
+    // let index = techs.indexOf("Git")
+    // techs.splice(1,2)
+    // document.write(techs)
+// document.write(`${techs} <br>`)
+// document.write(techs.slice(0, -3))
+    let nums = [2, "2", 2, 1, 5,  10, 78, 394]
+    document.write(nums.sort((a, b) => a - b))
